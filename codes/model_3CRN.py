@@ -1,6 +1,5 @@
 from tensorflow import keras
 
-
 def model_3CRN(INPUT_SIZE, n_out=1):
 
     ts=3
