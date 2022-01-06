@@ -1,6 +1,4 @@
-
 from tensorflow import keras
-
 
 
 def model_3CRN(INPUT_SIZE, n_out=1):
@@ -54,5 +52,3 @@ def model_3CRN(INPUT_SIZE, n_out=1):
     model = keras.Model(inputs=model_input, outputs=model_output)
     
     return model
-   
-   
